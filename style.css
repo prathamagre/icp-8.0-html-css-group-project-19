@@ -60,3 +60,41 @@ img {
     padding: 10px 20px;
     border-radius: 20px;
 }
+/* Small Devices  */
+@media screen and (max-width: 600px){
+}
+
+ /* Normal Devices  */
+@media screen and (min-width: 601px) and (max-width: 768px){
+    .box-container{
+        justify-content: start;
+    }
+    .box{
+        width: 300px;
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+}
+
+/* Tablets Devices  */
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .box-container{
+        justify-content: start;
+    }
+    .box{
+        width: 300px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+}
+
+/* Large Devices  */
+@media screen and (min-width: 993px) and (max-width: 1250px){
+    .box-container{
+        justify-content: start;
+    }
+    .box{
+        margin-left: 110px;
+        margin-top: 50px;
+    }
+}
